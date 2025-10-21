@@ -5,7 +5,7 @@ import imageio.v2 as imageio
 sc.imread=imageio.imread
 sc.imsave=imageio.imwrite
 
-im=sc.imread('zamalek.jpg')
+im=sc.imread('Lab_2/zamalek.jpg')
 sc.imsave('imagedzamalek.jpg',im)
 plt.imshow(im)
 plt.show()
